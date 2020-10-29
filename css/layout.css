@@ -386,6 +386,23 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+/*--------------------------------------------------
+    [Container Full Width]
+----------------------------------------------------*/
+.container-full-width {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-full-width:before, .container-full-width:after {
+  content: " ";
+  display: table;
+}
+
+.container-full-width:after {
+  clear: both;
+}
+
 /*------------------------------------------------------------------
   	[Work]
 ------------------------------------------------------------------*/
